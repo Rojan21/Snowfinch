@@ -1,0 +1,24 @@
+.side{
+    clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+
+@font-face {
+    font-family: 'Wigglye';
+    src: url('Wigglye.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Space Grotesk Bold';
+    src: url('SpaceGrotesk-Bold.ttf') format('truetype');
+  }
+  
+
+  .customfont{
+    font-family: 'Wigglye', sans-serif;
+  }
+
+  .customfont2{
+    font-family: 'Space Grotesk Bold', sans-serif;
+  }
+  
