@@ -5,17 +5,17 @@ import buttonarrow from '../assets/arrow.svg'
 
 function Carsection(){
 return(
-    <div className="flex relative mt-20 flex-row gap-7 justify-center items-center  bg-cover  bg-center w-full  h-auto">
-        <div className=" relative" >
-        <img className= " absolute bottom-28 w-80  right-28 z-10" src="car.png" alt="" />
-        <img className= " w-80  " src="cube.png" alt="" />
+    <div className=" flex-col flex relative mt-20 lg:flex-row gap-7 justify-center items-center  w-full  h-auto">
+        <div className=" ml-28 relative lg:ml-0" >
+        <img className= " right-14 absolute bottom-28 w-80  lg:right-28 z-10" src="car.png" alt="" />
+        <img className= " w-60 lg:w-80  " src="cube.png" alt="" />
 
 
     </div>
-    <img src="reactangle.png"  alt="" className=" -z-50 absolute   -left-36 -top-80" />
-    <div className=" mt-28">
-        <p className=" customfont font-text text-3xl mb-6  text-[#4691F2]">Get About Us</p>
-        <p className="customfont2 mb-9  text-6xl">
+    <img src="reactangle.png"  alt="" className=" -top-40 -z-50 absolute   -left-36 lg:-top-80" />
+    <div className=" lg:mt-28  pl-6">
+        <p className=" customfont font-text text-3xl lg:mb-6  text-[#4691F2]">Get About Us</p>
+        <p className=" text-3xl customfont2 mb-9  lg:text-6xl">
 More About Us
 </p>
 
